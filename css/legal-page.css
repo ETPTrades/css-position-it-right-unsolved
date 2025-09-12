@@ -1,4 +1,7 @@
 .legal-header {
+  /*z-index: 1;*/
+  position: fixed;
+  top: 0;
   background-color: #e2e2e2;
   padding: 30px;
   margin-top: 60px;
@@ -12,6 +15,8 @@
 }
 
 main {
+  position: relative;
+  top: 150px;
 }
 
 section {
@@ -26,7 +31,9 @@ section {
 }
 
 .section-label {
+  position: sticky;
   width: 100%;
+  top: 180px;
   background-color: #2b2d3b;
   height: max-content;
   padding: 10px 16px;
