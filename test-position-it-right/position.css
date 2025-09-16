@@ -1,4 +1,4 @@
-html {
+body {
     height: 500vh;
 }
 
@@ -24,4 +24,26 @@ header h1 {
 p {
     position: relative;
     top: 100px;
+}
+
+footer {
+    position: fixed;
+    border: 2px solid;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: crimson;
+    z-index: 1;
+}
+
+ul li {
+    list-style: none;
+}
+
+footer ul {
+    color: white
+}
+
+footer a {
+    color: white;
 }
