@@ -12,6 +12,7 @@
 }
 
 .robot-face-shape {
+    position: relative;
 }
 
 .robot-eye-left {
@@ -67,16 +68,35 @@
 }
 
 .robot-nose {
+    position: absolute;
+    left: 200px;
+    top: 200px;
+    --s: 35px;
+    height: 100px;
+    aspect-ratio: 4 / 6;
+    clip-path: polygon(100% 0, calc(100% - var(--s)) 0, 0 50%, calc(100% - var(--s)) 100%, 100% 100%, var(--s) 50%);
+    background: #5E9FA3;
 }
 
 .robot-teeth {
-
- /* When I try to position the mouth and teeth, it moves the position of everything else; hair, ears, eyes*/
+    border: 5px solid white;
+    width: 275px;
+    height: 75px;
+    position: absolute;
+    bottom: -285px;
+    left: 95px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
 
 }
 
 .robot-tooth {
-
+    border: 10px solid;
+    margin: 5px;
+    border-color: white;
+   
 }
 
 .robot-hair-style {
