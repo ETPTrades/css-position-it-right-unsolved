@@ -21,14 +21,14 @@
     left: 120px;
     width: 100px;
     height: 85px;
-    background-color: rgb(183, 187, 46);
+    background-color: #5e94a7;
     border-radius: 40% / 80%;
 }
 
 .robot-eye-right {
     width: 100px;
     height: 20px;
-    background-color: #1b4859;;
+    background-color: #1b4859;
     position: relative;
     top: 75px;
     left: 269px;
@@ -75,7 +75,7 @@
     height: 100px;
     aspect-ratio: 4 / 6;
     clip-path: polygon(100% 0, calc(100% - var(--s)) 0, 0 50%, calc(100% - var(--s)) 100%, 100% 100%, var(--s) 50%);
-    background: #5E9FA3;
+    background: #114043;
 }
 
 .robot-teeth {
@@ -89,14 +89,12 @@
     overflow: hidden;
     display: flex;
     justify-content: space-evenly;
-
 }
 
 .robot-tooth {
     border: 10px solid;
     margin: 5px;
     border-color: white;
-   
 }
 
 .robot-hair-style {
